@@ -22,7 +22,13 @@ class RouteStatistics extends Page implements HasTable
 
     protected static string $view = 'filament-route-statistics::pages.route-statistics';
 
-    protected static ?string $navigationGroup = 'Statistics';
+    protected static ?string $navigationGroup = __('filament-route-statistics::filament-route-statistics.resource.navigation.group');
+
+    protected static ?string $modelLabel = __('filament-route-statistics::filament-route-statistics.resource.model.labe');
+
+    protected static ?string $pluralModelLabel = __('filament-route-statistics::filament-route-statistics.resource.plural.model.label');
+
+    protected static ?string $navigationLabel = __('filament-route-statistics::filament-route-statistics.resource.navigation.label');
 
     protected static string $userName = 'email';
 
